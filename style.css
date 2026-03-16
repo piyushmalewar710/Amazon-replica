@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    background-color:#0f1111;
+    height:60px;
+    color:white;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Box 1 */
+
+.navlogo{
+    height: 50px;
+    width:139px;
+}
+.logo{
+    height: 50px;
+    width:100%;
+    background-image: url("pngwing.com.png");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.border{
+    border:2px solid transparent;
+    border-radius: 4px;
+}
+.border:hover{
+    border:2px solid rgb(255, 255, 255);
+}
+
+/* Box 2 */
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left:20px;
+}
+.add-second{
+    color: white;
+    font-weight: bold;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* Box 3 */
+
+.nav-search{
+    background-color: white;
+    width:620px;
+    height:40px;
+    display: flex;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border:2px solid rgb(255,106,0);
+}
+.search{
+    width:100%;
+    font-size: large;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right:0px;
+    color: black;
+    background-color: rgb(255, 106, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.3rem;
+}
+.all{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+}
+
+/* Box 4 */
+span{
+    font-size:0.7rem;
+}
+.nav-second{
+    font-size: large;
+    font-weight: 700;
+}   
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Box6 */
+
+.nav-cart i {
+    height : 30px;
+    font-size:35px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* Panel */
+
+.panel{
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+    display: flex;
+    padding: 0 20px;
+    gap: 20px;
+    align-items: center;
+}
+.panel-option p {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    margin-right: 20px;
+}
+
+/* Hero section */
+
+.Hero-section{
+    width: 100%;
+    height: 500px;
+    background-image: url("hero-section.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.Hero-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+    width:1500px;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    background-color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* shop section */
+.shop-section{
+    background-color: #a0a3a5;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: larger;
+    font-weight: 700;
+}
+.box{
+    height:370px;
+    width: 350px;
+    margin: 10px;
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.im{
+    height:40%;
+    width:40%;
+    font-weight: 300;
+    font-size:small;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+/* footer */
+
+.foot-panel1{
+    background-color:#57697b;
+    color:white;
+    height: 35px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel2{
+    background-color: #232f3e;
+    color: #f1f6f6;
+    height:350px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
+.foot-panel2 div {
+    margin-right:100px;
+    margin-top: 30px;
+}
+.foot-panel3{
+    margin-top: 0.8px;
+    background-color: #232f3e;
+    color: #f1f6f6;
+    height: 80px;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.foot-panel5{
+    height: 80px;
+    width: 100%;
+    font-size: 0.8rem;
+    background-color: rgb(17, 13, 31);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
